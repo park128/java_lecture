@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/myFirstCSS.css">
+    <script>
+        alert("hello world");
+    </script>
+
+    <script src="Script/myScript.js"></script>
+
+    <style>
+        h3{
+            color : red;
+        }
+    </style>
+    <!-- rel 관계설명 -->
+    <link rel="stylesheet" href="">
+</head>
+<body>
+   
+    <div>디브1</div>
+    <div>디브2</div>
+    <div>디브3</div>
+    <br>
+    <span>스팬1</span>
+    <span>스팬2</span>
+    <span>스팬3</span>
+
+    <h1>하이라이트1</h1>
+    <h3>하이라이트3</h3>
+    <h8>하이라이트8</h8>
+
+    <button>버 튼       1</button>
+    <button>버튼2</button>
+
+    <table border="1">
+        <th class="table_name">이름</th>
+        <th class="table_age">나이</th>
+        <th class="tabel_weight">몸무게</th>
+        <tr>
+            <td class="table_name">박근태</td>
+            <td id="QNQN" class="aaa">31</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>박근태</td>
+            <td>31</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>박근태</td>
+            <td>31</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>몸무게합</td>
+            <td colspan="2">125</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>C언어</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Ruby</li>
+    </ul>
+
+    <!-- id는 이 문서에서 유일하게 선택할 수 있도록 지정
+    class는 이 문서에서 공통점을 묶어서 그룹으로 선택 할 수 있도록 지정
+    name은 백엔드로 넘어갈때의 이름
+    ctrl +/ 은 주석 
+    form안에 있는 input데이터들이 name의 가지고
+    <form action="데이터를 보낼 주소" method="http메소드">-->
+    <form action="https://www.naver.com/join" method="get">
+        <div>
+            <input type="text" placeholder="당신이 가장 좋아하는 언어"
+            name="favoritePL">
+        </div>
+        <div>
+            <input type="text" placeholder="당신이 가장 잘하고싶은 언어"
+            name="wannabePL">
+        </div>
+
+        <input type="radio">
+        <input type="checkbox">
+        <input type="color">
+        <input type="number">
+        <input type="date">
+        <input type="text">
+
+        <button type="submit">제출</button>
+
+    </form>
+
+    <img src="https://ursd.org/wp-content/uploads/2020/12/1.png" alt="" width="400px">
+
+
+
+
+</body>
+</html>
